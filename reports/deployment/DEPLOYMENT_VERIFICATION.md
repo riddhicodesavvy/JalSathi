@@ -40,8 +40,7 @@ Screenshots: [desktop](../testing/production-desktop.png), [tablet](../testing/p
 ## Repairs and release checks
 
 - Added explicit Python entrypoint and complete pyproject runtime dependencies; the platform prioritizes pyproject over a separate requirements file.
-- Removed a runtime mount of CDN-only files and added SPA rewrites, fixing direct-route HTTP 500 responses.
-- A clean Git deployment initially omitted the generated CDN output despite a successful build. Explicit `outputDirectory: public` and a tracked favicon make static discovery independent of pre-existing local build files. The corrected Git deployment is verified separately from the CLI candidate.
+- Fixed static-directory HTTP 500s and clean-Git static packaging failures. The generated Vite frontend is declared through `app.frontend()` with explicit CDN promotion despite logging/CORS middleware. Static files remain in the function as a fallback, and SPA rewrites preserve direct navigation. Merely setting an output directory did not resolve Python static discovery; the corrected Git deployment is verified separately from the CLI candidate.
 - Replaced ephemeral SQLite production history with dedicated PostgreSQL and an explicit migration.
 - Generated PDFs under the writable temporary directory while retaining durable source records.
 - Reduced the maximum batch payload below Vercel's 4.5 MB response limit, retaining all measurements and model outputs. Full guideline/disclaimer details remain available through each analysis URL and in the database.

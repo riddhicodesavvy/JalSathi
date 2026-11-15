@@ -1,12 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "fastapi",
-  "outputDirectory": "public",
   "buildCommand": "npm ci --prefix frontend && npm run build --prefix frontend && python -m scripts.build_frontend",
   "functions": {
     "main.py": {
       "maxDuration": 60,
-      "excludeFiles": "{.git/**,.venv/**,runtime/**,tests/**,backend/tests/**,reports/**,frontend/**,public/**,ml/artifacts/gam.joblib,ml/artifacts/likelihood-average.joblib}"
+      "includeFiles": "public/**",
+      "excludeFiles": "{.git/**,.venv/**,runtime/**,tests/**,backend/tests/**,reports/**,frontend/**,ml/artifacts/gam.joblib,ml/artifacts/likelihood-average.joblib}"
     }
   },
   "rewrites": [

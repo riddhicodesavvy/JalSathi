@@ -8,8 +8,8 @@ JalSathi deploys as one Vercel FastAPI project, with the existing Vite build pro
 - Python 3.12 with inference-only dependencies declared in `[project.dependencies]` and mirrored in `requirements.txt`; test/render/training tools are excluded from the cloud runtime.
 - Build: `npm ci --prefix frontend && npm run build --prefix frontend && python -m scripts.build_frontend`.
 - `scripts/build_frontend.py` copies Vite `frontend/dist` into ignored `public/` output.
-- `outputDirectory` is explicitly `public`. A tracked original favicon keeps that directory discoverable before the build in a clean Git checkout; generated JS/CSS/HTML remain ignored.
-- Vercel serves `public/` through its CDN. Explicit rewrites for the seven SPA entry routes provide history fallback without intercepting `/api/v1/*` or API docs. The Python function does not mount the excluded CDN directory at runtime.
+- `app.frontend()` declares the generated frontend for post-build discovery. `tool.vercel.fastapi.static.cdn=true` enables promotion despite the API's logging/CORS middleware; no authorization guards are bypassed. Static files also remain bundled as a runtime fallback via `includeFiles`, avoiding missing-directory errors.
+- Explicit rewrites for the seven SPA entry routes provide history fallback without intercepting `/api/v1/*` or API docs. A tracked original favicon is the only committed file under generated `public/`; JS/CSS/HTML remain ignored.
 - Python bundle configuration excludes development environments, tests, reports and frontend source while retaining dataset, trusted core pipelines, registry and model plots.
 - Node 22.x and a 60-second configured function duration; no paid memory/plan upgrade was selected.
 
