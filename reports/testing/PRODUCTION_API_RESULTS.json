@@ -1,7 +1,7 @@
 {
   "url": "https://jalsathi-ridcyber.vercel.app",
-  "passed": 34,
-  "total": 34,
+  "passed": 35,
+  "total": 35,
   "checks": [
     {
       "name": "public SPA /",
@@ -128,11 +128,15 @@
       "passed": true
     },
     {
-      "name": "saved history 394bd8da-c74a-47d6-9d86-057650b682e6",
+      "name": "saved history d54e72c1-1266-498b-accb-7ad84485fa59",
       "passed": true
     },
     {
-      "name": "saved history f03dab83-4505-4597-a005-4ee7b76d6295",
+      "name": "saved history 396f68cf-efce-4440-aaa5-a824fb91f538",
+      "passed": true
+    },
+    {
+      "name": "history survives later verification/deployment",
       "passed": true
     },
     {
@@ -153,10 +157,10 @@
     "database": "postgresql",
     "persistent_history": true
   },
-  "positive_analysis_id": "394bd8da-c74a-47d6-9d86-057650b682e6",
+  "positive_analysis_id": "d54e72c1-1266-498b-accb-7ad84485fa59",
   "positive_probability": 0.6263747470354587,
-  "negative_analysis_id": "f03dab83-4505-4597-a005-4ee7b76d6295",
-  "batch_id": "27ff4ddb-6c54-48a4-9fdb-f544024b8536",
-  "elapsed_seconds": 10.939004599989858,
+  "negative_analysis_id": "396f68cf-efce-4440-aaa5-a824fb91f538",
+  "batch_id": "14331683-572c-4159-865a-731b535b10fc",
+  "elapsed_seconds": 8.229870600043796,
   "persistence": "Neon PostgreSQL"
 }

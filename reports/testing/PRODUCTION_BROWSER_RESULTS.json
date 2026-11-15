@@ -3,7 +3,7 @@
   "passed": 3,
   "failed": 0,
   "skipped": 0,
-  "duration_ms": 59508.993,
+  "duration_ms": 51602.503000000004,
   "viewports": {
     "desktop": [
       1586,
@@ -19,5 +19,7 @@
     ]
   },
   "api_mocking": false,
-  "page_errors": []
+  "page_errors": [],
+  "verified_deployment_id": "dpl_CBZ5iURNFhU6edwjFP1ZbE34Za1w",
+  "source_commit": "2e3bf525494c8ada66f1a7aca30c749fd8aac9ce"
 }

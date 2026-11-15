@@ -1,0 +1,38 @@
+{
+  "production_url": "https://jalsathi-ridcyber.vercel.app",
+  "deployment_id": "dpl_CBZ5iURNFhU6edwjFP1ZbE34Za1w",
+  "deployment_status": "READY",
+  "deployment_source": "git",
+  "source_commit": "2e3bf525494c8ada66f1a7aca30c749fd8aac9ce",
+  "branch": "main",
+  "repository": "https://github.com/riddhicodesavvy/JalSathi",
+  "public_api_passed": 35,
+  "public_api_total": 35,
+  "browser_workflows_passed": 3,
+  "viewports": {
+    "desktop": [
+      1586,
+      1000
+    ],
+    "tablet": [
+      834,
+      1112
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "history_survived_redeployment": true,
+  "static_asset_status": 200,
+  "static_asset_cache": "HIT",
+  "favicon_status": 200,
+  "api_docs_status": 200,
+  "runtime_error_fatal_log_entries": 0,
+  "model_or_threshold_changes": false,
+  "paid_upgrade_selected": false,
+  "backend_tests_passed": 43,
+  "backend_coverage_percent": 97,
+  "component_tests_passed": 4,
+  "npm_audit_vulnerabilities": 0
+}

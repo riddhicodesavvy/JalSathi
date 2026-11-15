@@ -7,17 +7,19 @@ Verified on 15 November 2026 against the public production origin, without authe
 - Health: https://jalsathi-ridcyber.vercel.app/api/v1/health
 - Repository: https://github.com/riddhicodesavvy/JalSathi, production branch `main`.
 - Vercel project: `ridcyber/jalsathi` (`prj_yyeAAbGMZGMCzSVNcPmmfJ4AdnWi`).
-- Verified release candidate: `dpl_7WDGfnNEeiBa5VaSz8jKVU9jfjYU`, status READY. Git pushes to `main` are connected to this project; final deployment identifiers are recorded in the release follow-up evidence.
+- Verified corrected Git deployment: `dpl_CBZ5iURNFhU6edwjFP1ZbE34Za1w`, status READY, source commit `2e3bf525494c8ada66f1a7aca30c749fd8aac9ce`. Automatic production deployments from `main` were observed. Release evidence: [GIT_RELEASE_VERIFICATION.json](GIT_RELEASE_VERIFICATION.json).
 
 ## Architecture and persistence
 
-Vite assets run on Vercel's CDN; the full FastAPI application runs in the Python 3.12 runtime, with all five original core classifiers bundled. API calls use the relative HTTPS `/api/v1` path. Explicit SPA rewrites support the root and all six pages without intercepting API requests. Build output reported a 308.11 MB uncompressed Python dependency package, within the documented current 500 MB Python limit; successful deployment and inference establish compatibility for this release.
+Vite assets run on Vercel's CDN; the full FastAPI application runs in the Python 3.12 runtime, with all five original core classifiers bundled. A real generated JavaScript asset returned HTTP 200 with `x-vercel-cache: HIT`; favicon and API docs returned 200. API calls use the relative HTTPS `/api/v1` path. Explicit SPA rewrites support the root and all six pages without intercepting API requests. Corrected build output reported a 309.21 MB uncompressed bundle, within the documented current 500 MB Python limit; successful deployment and inference establish compatibility for this release.
 
 The dedicated `jalsathi-db` Neon resource uses the Free (`free_v3`) plan in `iad1`. Backend secrets are stored in Vercel, excluded from Git and frontend bundles. The initial idempotent schema migration was applied. No local user history was copied to the public database. Production rejects missing databases and SQLite rather than silently losing data. Reports regenerate from saved PostgreSQL analyses; temporary PDF files are disposable. No paid upgrade was selected.
 
 ## Public functional checks
 
 The reproducible API suite is `python -m tests.verify_production --url https://jalsathi-ridcyber.vercel.app`. Its machine-readable results are in [PRODUCTION_API_RESULTS.json](../testing/PRODUCTION_API_RESULTS.json).
+
+All **35/35 public API checks passed** on the corrected Git deployment. The prior deployment's saved positive analysis remained retrievable after redeployment, confirming history across deployments in addition to fresh-client persistence.
 
 | Check | Observed result |
 |---|---|
