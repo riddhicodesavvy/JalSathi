@@ -109,6 +109,8 @@ export interface BatchResult {
   invalid: number;
   potable: number;
   non_potable: number;
-  results: Prediction[];
+  results: (Omit<Prediction, "parameters" | "disclaimer"> & {
+    details_url: string;
+  })[];
   errors: { row: number; message: string }[];
 }

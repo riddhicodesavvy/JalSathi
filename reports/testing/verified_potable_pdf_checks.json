@@ -1,0 +1,82 @@
+[
+  {
+    "group": "potable",
+    "number": 1,
+    "analysis_id": "62a815e7-ec28-4821-836e-a505f3b6a6a5",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "potable",
+    "number": 2,
+    "analysis_id": "7db25e49-cc6a-4985-8031-a0849037e581",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "potable",
+    "number": 3,
+    "analysis_id": "321c4635-e9cb-40e2-80d6-c395d3dadca6",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "potable",
+    "number": 4,
+    "analysis_id": "28499945-bdab-4eb5-be76-6a64b6db5ade",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "potable",
+    "number": 5,
+    "analysis_id": "7de09703-7744-4338-a02f-3bd21d15a3ad",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "nonpotable",
+    "number": 1,
+    "analysis_id": "efea2ec0-7be9-439c-b654-ccd2a2d55d40",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "nonpotable",
+    "number": 2,
+    "analysis_id": "7ffc8a6c-5b84-4855-8deb-234be2489cc6",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "nonpotable",
+    "number": 3,
+    "analysis_id": "91e76917-a879-4148-83e0-a146240a5826",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "nonpotable",
+    "number": 4,
+    "analysis_id": "4ec3b5c9-4075-4849-959b-7d47e65a683b",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  },
+  {
+    "group": "nonpotable",
+    "number": 5,
+    "analysis_id": "85b7b44c-f9f5-4c13-94de-be983599446a",
+    "measurements_match": true,
+    "classification_match": true,
+    "pages": 2
+  }
+]

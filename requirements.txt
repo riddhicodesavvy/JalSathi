@@ -1,0 +1,12 @@
+# Production inference dependencies only. Training/QA dependencies remain in backend/.
+fastapi==0.163.1
+pydantic==2.14.3
+python-multipart==0.0.33
+SQLAlchemy==2.1.8
+psycopg[binary]==3.3.9
+pandas==2.3.3
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.8.0
+joblib==1.6.0
+reportlab==5.1.0

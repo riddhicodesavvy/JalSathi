@@ -1,0 +1,27 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "buildCommand": "npm ci --prefix frontend && npm run build --prefix frontend && python -m scripts.build_frontend",
+  "functions": {
+    "main.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{.git/**,.venv/**,runtime/**,tests/**,backend/tests/**,reports/**,frontend/**,public/**,ml/artifacts/gam.joblib,ml/artifacts/likelihood-average.joblib}"
+    }
+  },
+  "rewrites": [
+    {"source": "/", "destination": "/index.html"},
+    {"source": "/dashboard", "destination": "/index.html"},
+    {"source": "/analyze", "destination": "/index.html"},
+    {"source": "/models", "destination": "/index.html"},
+    {"source": "/batch", "destination": "/index.html"},
+    {"source": "/reports", "destination": "/index.html"},
+    {"source": "/about", "destination": "/index.html"}
+  ],
+  "headers": [
+    {"source": "/(.*)", "headers": [
+      {"key": "X-Content-Type-Options", "value": "nosniff"},
+      {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
+      {"key": "X-Frame-Options", "value": "DENY"}
+    ]}
+  ]
+}

@@ -1,4 +1,5 @@
 import os
+import tempfile
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -11,7 +12,12 @@ from ml.data import ROOT
 
 
 def generate_report(result):
-    directory = Path(os.getenv("JALSATHI_REPORTS", ROOT / "runtime/reports"))
+    default_directory = (
+        Path(tempfile.gettempdir()) / "jalsathi-reports"
+        if os.getenv("VERCEL") == "1"
+        else ROOT / "runtime/reports"
+    )
+    directory = Path(os.getenv("JALSATHI_REPORTS", default_directory))
     directory.mkdir(parents=True, exist_ok=True)
     path = directory / f"{result['analysis_id']}.pdf"
     styles = getSampleStyleSheet()

@@ -2,7 +2,13 @@
 
 Smarter Water Insights, Powered by Machine Learning.
 
-A local educational application with five genuinely trained classifiers, a React Aqua Glass interface, FastAPI inference, SQLite history, CSV batch processing and PDF reports. Predictions are educational screening estimates, not drinking-water safety determinations.
+An educational application with five genuinely trained classifiers, a React Aqua Glass interface, FastAPI inference, persistent analysis history, CSV batch processing and PDF reports. Predictions are educational screening estimates, not drinking-water safety determinations.
+
+**Live application: [jalsathi-ridcyber.vercel.app](https://jalsathi-ridcyber.vercel.app)** · [API health](https://jalsathi-ridcyber.vercel.app/api/v1/health) · [API docs](https://jalsathi-ridcyber.vercel.app/docs)
+
+Production runs the full FastAPI backend and Vite frontend on Vercel, with a dedicated Neon PostgreSQL Free database. Local development uses SQLite. See [deployment setup](docs/DEPLOYMENT.md) and [production verification](reports/deployment/DEPLOYMENT_VERIFICATION.md). This is an anonymous shared demo: visitors can see saved history and reports, so use demonstration measurements without personal information.
+
+Public release verification: all six routes and refreshes, both prediction states, five-row CSV upload/export, malformed CSV feedback, PDF downloads and durable history passed. Chrome workflows passed at desktop, tablet and mobile sizes. Row 250 remains Predicted Potable with RF class-1 estimate **0.6263747470354587** and **3/5** agreement. [Verified positive inputs and provenance](reports/testing/VERIFIED_POTABLE_EXAMPLES.md) and the [uploadable CSV](tests/fixtures/verified_potable_samples.csv) are included.
 
 ![JalSathi Aqua Glass analyzer](reports/testing/desktop-actual-class-1.png)
 
@@ -180,6 +186,6 @@ Only dimensionless pH receives an active EPA secondary-reference check. Other da
 
 Advanced extensions: an actual penalized additive logistic spline GAM is trained; validation-likelihood averaging is explicitly a plug-in approximation, not rigorous BMA. Adaptive MARS and SHAP are not implemented; fitted CART paths and measured permutation importance supply real explanations. Probabilistic calibration has not been applied; no displayed percentage should be read as a safety probability.
 
-This application is intended for local use. Before public deployment add authentication, HTTPS, authorization, reverse-proxy request/rate limits, backups, audit controls and appropriate health-domain review. Do not accept uploaded pickle/joblib artifacts. No public deployment was performed.
+The public deployment uses HTTPS and durable PostgreSQL history. It remains an educational shared demo, without private user accounts or laboratory certification. Private laboratory use requires authentication, authorization, backup policy and appropriate health-domain review. Only trusted bundled model artifacts are loaded; uploaded pickle/joblib artifacts are never accepted. Free hosting quotas can limit availability.
 
 Further reading: [architecture](docs/ARCHITECTURE.md), [methodology](docs/ML_METHODOLOGY.md), [dataset limitations](docs/DATASET_LIMITATIONS.md), [API](docs/API_DOCUMENTATION.md), [Unit 5 mapping](docs/UNIT5_SYLLABUS_MAPPING.md), [faculty demo](docs/FACULTY_DEMO.md).

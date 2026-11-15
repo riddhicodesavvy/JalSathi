@@ -1,0 +1,162 @@
+{
+  "url": "https://jalsathi-ridcyber.vercel.app",
+  "passed": 34,
+  "total": 34,
+  "checks": [
+    {
+      "name": "public SPA /",
+      "passed": true
+    },
+    {
+      "name": "public SPA /dashboard",
+      "passed": true
+    },
+    {
+      "name": "public SPA /analyze",
+      "passed": true
+    },
+    {
+      "name": "public SPA /models",
+      "passed": true
+    },
+    {
+      "name": "public SPA /batch",
+      "passed": true
+    },
+    {
+      "name": "public SPA /reports",
+      "passed": true
+    },
+    {
+      "name": "public SPA /about",
+      "passed": true
+    },
+    {
+      "name": "health HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "five fitted models loaded",
+      "passed": true
+    },
+    {
+      "name": "durable PostgreSQL persistence",
+      "passed": true
+    },
+    {
+      "name": "primary and saved metrics match",
+      "passed": true
+    },
+    {
+      "name": "genuine dataset statistics",
+      "passed": true
+    },
+    {
+      "name": "row250 HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "row250 potable",
+      "passed": true
+    },
+    {
+      "name": "row250 probability unchanged",
+      "passed": true
+    },
+    {
+      "name": "row250 agreement",
+      "passed": true
+    },
+    {
+      "name": "row250 exact values",
+      "passed": true
+    },
+    {
+      "name": "negative HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "genuine nonpotable",
+      "passed": true
+    },
+    {
+      "name": "negative probability unchanged",
+      "passed": true
+    },
+    {
+      "name": "batch HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "five positive CSV samples",
+      "passed": true
+    },
+    {
+      "name": "batch probabilities unchanged",
+      "passed": true
+    },
+    {
+      "name": "CSV export matches",
+      "passed": true
+    },
+    {
+      "name": "malformed CSV safely rejected",
+      "passed": true
+    },
+    {
+      "name": "PDF HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "PDF correct values and identity",
+      "passed": true
+    },
+    {
+      "name": "PDF scientific limitations",
+      "passed": true
+    },
+    {
+      "name": "real plot cart-tree.png",
+      "passed": true
+    },
+    {
+      "name": "real plot gam-effects.png",
+      "passed": true
+    },
+    {
+      "name": "real plot rf-evaluation.png",
+      "passed": true
+    },
+    {
+      "name": "saved history 394bd8da-c74a-47d6-9d86-057650b682e6",
+      "passed": true
+    },
+    {
+      "name": "saved history f03dab83-4505-4597-a005-4ee7b76d6295",
+      "passed": true
+    },
+    {
+      "name": "fresh client persistent snapshot",
+      "passed": true
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "models_available": true,
+    "loaded_models": [
+      "cart",
+      "rf",
+      "ada",
+      "gb",
+      "voting"
+    ],
+    "database": "postgresql",
+    "persistent_history": true
+  },
+  "positive_analysis_id": "394bd8da-c74a-47d6-9d86-057650b682e6",
+  "positive_probability": 0.6263747470354587,
+  "negative_analysis_id": "f03dab83-4505-4597-a005-4ee7b76d6295",
+  "batch_id": "27ff4ddb-6c54-48a4-9fdb-f544024b8536",
+  "elapsed_seconds": 10.939004599989858,
+  "persistence": "Neon PostgreSQL"
+}

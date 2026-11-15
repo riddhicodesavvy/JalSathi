@@ -12,10 +12,10 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, Response
 from pydantic import ValidationError
-from sqlalchemy import select
+from sqlalchemy import select, text
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
-from backend.app.database import Analysis, Batch, Session
+from backend.app.database import Analysis, Batch, Session, engine
 from backend.app.csv_export import safe_csv_cell
 from backend.app.inference import Registry
 from backend.app.reporting import generate_report
@@ -90,7 +90,15 @@ async def validation_error(request, exc):
 @app.get("/api/v1/health")
 def health(request: Request):
     registry = request.app.state.registry
-    return dict(status="ok", models_available=len(registry.models) == 5, loaded_models=list(registry.models))
+    with Session() as session:
+        session.execute(text("SELECT 1"))
+    return dict(
+        status="ok",
+        models_available=len(registry.models) == 5,
+        loaded_models=list(registry.models),
+        database=engine.dialect.name,
+        persistent_history=engine.dialect.name == "postgresql",
+    )
 
 
 @app.get("/api/v1/models")
@@ -203,7 +211,19 @@ async def batch_predict(request: Request, file: UploadFile = File(...)):
         for result in results:
             session.add(Analysis(id=result["analysis_id"], source="batch", payload=result))
         session.add(Batch(id=payload["batch_id"], payload=payload))
-    return payload
+    # Persist the full record, but omit repeated reference prose from
+    # batch responses. A 1,000-row full response exceeds Vercel's 4.5 MB limit.
+    # Each original detailed snapshot remains available through its analysis URL.
+    return {
+        **payload,
+        "results": [
+            {
+                **{key: value for key, value in result.items() if key not in {"parameters", "disclaimer"}},
+                "details_url": f"/api/v1/analyses/{result['analysis_id']}",
+            }
+            for result in results
+        ],
+    }
 
 
 @app.get("/api/v1/batches/{batch_id}/csv")

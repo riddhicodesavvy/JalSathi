@@ -6,6 +6,11 @@ __pycache__/
 .ruff_cache/
 runtime/
 .env
+.env.*
+!.env.example
+.vercel/
+/public/
+.vercel-cache/
 frontend/test-results/
 frontend/playwright-report/
 *.pyc
@@ -22,3 +27,12 @@ reports/testing/browser-smoke-results.json
 reports/testing/browser-supplemental-results.json
 reports/testing/*.log
 reports/testing/audit_checks.json
+reports/testing/*browser-tests.json
+reports/testing/*browser-test.json
+reports/testing/verified_potable_browser_evidence.json
+reports/testing/ROW_250_BROWSER_VERIFICATION.json
+reports/testing/*pytest*.xml
+reports/testing/production-browser-raw.json
+reports/testing/npm-audit-before.json
+reports/testing/npm-audit-after.json
+reports/testing/npm-audit-current.json

@@ -1,0 +1,16 @@
+.git
+.venv
+runtime
+frontend/node_modules
+frontend/dist
+frontend/test-results
+frontend/playwright-report
+**/__pycache__
+.pytest_cache
+.ruff_cache
+.coverage
+.env*
+reports/eda
+reports/screenshots
+reports/testing
+tests
