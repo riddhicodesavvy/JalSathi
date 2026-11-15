@@ -9,7 +9,8 @@ runtime/
 .env.*
 !.env.example
 .vercel/
-/public/
+/public/*
+!/public/favicon.svg
 .vercel-cache/
 frontend/test-results/
 frontend/playwright-report/

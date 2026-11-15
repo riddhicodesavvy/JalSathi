@@ -2,6 +2,8 @@
 
 Base: `/api/v1`. Interactive OpenAPI documentation: `/docs`.
 
+Production base: https://jalsathi-ridcyber.vercel.app/api/v1. The public site is an anonymous shared educational demo; saved analyses and reports are public.
+
 | Method | Route | Behavior |
 |---|---|---|
 | GET | `/health` | API status and five-model availability |
@@ -24,5 +26,9 @@ Base: `/api/v1`. Interactive OpenAPI documentation: `/docs`.
 Responses include UUID, UTC timestamp, measurements, model/version, all five classifications and probabilities, selected-class estimate, agreement count/percentage, reference checks, warnings, fitted CART path and disclaimer. Probabilities are explicitly uncalibrated. Reference statuses are independent of classifications.
 
 Batch uploads require UTF-8 `.csv` files with exact unique headers. Optional `Potability` is ignored. Maximum 2 MB and 1,000 rows. Blank/malformed numeric rows are reported by original CSV line number. Structural/encoding problems reject the file; valid rows from mixed files are analyzed and persisted atomically with batch metadata. Inference never trains.
+
+Batch results retain all nine measurements, the five model outputs, warnings, agreement and CART paths. To stay below the hosting response-size limit, repeated `parameters` and `disclaimer` prose is omitted only from batch response rows. Each row includes `details_url`, pointing to the complete saved prediction under `/api/v1/analyses/{uuid}`. Single predictions, saved snapshots and PDFs retain full details.
+
+Health checks query the configured database and report its dialect plus `persistent_history`. Production uses PostgreSQL; development uses local SQLite. Production startup rejects absent database configuration and SQLite URLs.
 
 Errors use `{"error":{"message":"...","details":[...]}}` where details are present for request validation. Codes: 413 size/row limit, 415 file extension, 422 schema/value error, 404 unknown resources, 503 missing models, 500 generic internal error. Health still reports model unavailability honestly. Model files are loaded only from the configured trusted local directory.
