@@ -1,0 +1,5 @@
+* text=auto eol=lf
+water_potability.csv -text
+*.joblib binary
+*.png binary
+*.pdf binary

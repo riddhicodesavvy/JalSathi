@@ -1,0 +1,22 @@
+[
+  {
+    "name": "malformed JSON",
+    "status": 422
+  },
+  {
+    "name": "invalid report UUID",
+    "status": 422
+  },
+  {
+    "name": "traversal plot",
+    "status": 404
+  },
+  {
+    "name": "unexpected file type",
+    "status": 415
+  },
+  {
+    "name": "oversized bytes",
+    "status": 413
+  }
+]

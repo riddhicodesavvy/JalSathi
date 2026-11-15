@@ -1,0 +1,10 @@
+[
+  {
+    "strategy": "median",
+    "cv_balanced_accuracy": 0.5596452969366962
+  },
+  {
+    "strategy": "mean",
+    "cv_balanced_accuracy": 0.5596452969366962
+  }
+]

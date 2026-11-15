@@ -1,0 +1,246 @@
+{
+  "potable_labeled_25.csv": {
+    "rows": 25,
+    "source": "Original complete held-out dataset records",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "nonpotable_labeled_25.csv": {
+    "rows": 25,
+    "source": "Original complete held-out dataset records",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "balanced_labeled_100.csv": {
+    "rows": 100,
+    "source": "Original complete held-out dataset records",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "diverse_valid_100.csv": {
+    "rows": 100,
+    "source": "Synthetic uniform observed-range functional inputs; unlabeled",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "edge_cases_30.csv": {
+    "rows": 30,
+    "source": "Synthetic schema boundary inputs; unlabeled",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "out_of_distribution_20.csv": {
+    "rows": 20,
+    "source": "Synthetic outside training ranges; unlabeled",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "invalid_missing_columns.csv": {
+    "rows": 1,
+    "source": "Modified reference",
+    "expected_status": 422,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "invalid_non_numeric.csv": {
+    "rows": 1,
+    "source": "Formula/text injection attempt",
+    "expected_status": 200,
+    "invalid": 1,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "invalid_empty_cells.csv": {
+    "rows": 1,
+    "source": "Modified reference; missing measurement",
+    "expected_status": 200,
+    "invalid": 1,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "invalid_extra_columns.csv": {
+    "rows": 1,
+    "source": "Modified reference",
+    "expected_status": 422,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity",
+      "unexpected"
+    ]
+  },
+  "invalid_large_file.csv": {
+    "rows": 1001,
+    "source": "Synthetic over row limit",
+    "expected_status": 413,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "invalid_empty_file.csv": {
+    "rows": 0,
+    "source": "Empty file",
+    "expected_status": 422,
+    "invalid": 0
+  },
+  "invalid_duplicate_rows.csv": {
+    "rows": 3,
+    "source": "Duplicate reference measurements; duplicates intentionally retained independently",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "single_sample.csv": {
+    "rows": 1,
+    "source": "Specified numerical reference; no claimed true label",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  },
+  "maximum_supported_batch.csv": {
+    "rows": 1000,
+    "source": "1,000 synthetic valid rows; repeated measurements retained",
+    "expected_status": 200,
+    "invalid": 0,
+    "columns": [
+      "ph",
+      "Hardness",
+      "Solids",
+      "Chloramines",
+      "Sulfate",
+      "Conductivity",
+      "Organic_carbon",
+      "Trihalomethanes",
+      "Turbidity"
+    ]
+  }
+}

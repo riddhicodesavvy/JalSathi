@@ -1,0 +1,126 @@
+{
+  "gam": {
+    "status": "Implemented",
+    "method": "Penalized additive logistic B-spline GAM",
+    "cv_balanced_accuracy": 0.5449851735672242,
+    "hyperparameters": {
+      "model__C": 1,
+      "spline__n_knots": 6
+    },
+    "metrics": {
+      "accuracy": 0.6097560975609756,
+      "precision": 0.5,
+      "recall": 0.1640625,
+      "f1": 0.24705882352941178,
+      "balanced_accuracy": 0.52953125,
+      "roc_auc": 0.57486328125,
+      "pr_auc": 0.46309734137425496,
+      "brier": 0.23484559239402392,
+      "log_loss": 0.6670314700228337,
+      "confusion_matrix": [
+        [
+          358,
+          42
+        ],
+        [
+          214,
+          42
+        ]
+      ],
+      "false_potable_rate": 0.105,
+      "classification_report": {
+        "0": {
+          "precision": 0.6258741258741258,
+          "recall": 0.895,
+          "f1-score": 0.7366255144032922,
+          "support": 400.0
+        },
+        "1": {
+          "precision": 0.5,
+          "recall": 0.1640625,
+          "f1-score": 0.24705882352941178,
+          "support": 256.0
+        },
+        "accuracy": 0.6097560975609756,
+        "macro avg": {
+          "precision": 0.5629370629370629,
+          "recall": 0.52953125,
+          "f1-score": 0.49184216896635197,
+          "support": 656.0
+        },
+        "weighted avg": {
+          "precision": 0.576752515776906,
+          "recall": 0.6097560975609756,
+          "f1-score": 0.5455750984525095,
+          "support": 656.0
+        }
+      }
+    },
+    "plot": "gam-effects.png"
+  },
+  "bayesian_style_average": {
+    "status": "Approximation only",
+    "method": "Validation-likelihood weighted plug-in averaging, equal priors",
+    "formula": "w_m = exp(sum_i log p_m(y_i|x_i)) / sum_k exp(sum_i log p_k(y_i|x_i))",
+    "limitations": "No parameter integration or marginal likelihood; not rigorous BMA. Fixed candidate settings; 75% of training rows fit candidates, 25% determine weights. Weights condition on fitted parameters. Final test remains untouched.",
+    "weights": {
+      "cart": 8.644497732481903e-77,
+      "rf": 0.9999999999995595,
+      "ada": 1.3263632870766646e-56,
+      "gb": 4.404744499672888e-13
+    },
+    "metrics": {
+      "accuracy": 0.6478658536585366,
+      "precision": 0.5939849624060151,
+      "recall": 0.30859375,
+      "f1": 0.40616966580976865,
+      "balanced_accuracy": 0.586796875,
+      "roc_auc": 0.63349609375,
+      "pr_auc": 0.5551222927752804,
+      "brier": 0.22270431506595315,
+      "log_loss": 0.6361969748608225,
+      "confusion_matrix": [
+        [
+          346,
+          54
+        ],
+        [
+          177,
+          79
+        ]
+      ],
+      "false_potable_rate": 0.135,
+      "classification_report": {
+        "0": {
+          "precision": 0.6615678776290631,
+          "recall": 0.865,
+          "f1-score": 0.7497291440953413,
+          "support": 400.0
+        },
+        "1": {
+          "precision": 0.5939849624060151,
+          "recall": 0.30859375,
+          "f1-score": 0.40616966580976865,
+          "support": 256.0
+        },
+        "accuracy": 0.6478658536585366,
+        "macro avg": {
+          "precision": 0.6277764200175391,
+          "recall": 0.586796875,
+          "f1-score": 0.577949404952555,
+          "support": 656.0
+        },
+        "weighted avg": {
+          "precision": 0.635194057054215,
+          "recall": 0.6478658536585366,
+          "f1-score": 0.6156571525692641,
+          "support": 656.0
+        }
+      }
+    }
+  },
+  "adaptive_basis": {
+    "status": "Not implemented",
+    "reason": "MARS requires adaptive hinge selection and pruning. No reliable Windows MARS dependency is included; fixed spline GAM must not be mislabeled as MARS."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "total": 2305,
+  "passed": 2305,
+  "failed": [],
+  "labeled_samples": 100,
+  "positive": 50,
+  "negative": 50,
+  "diverse_samples": 220,
+  "parity_samples": 100,
+  "parity_model_comparisons": 500,
+  "csv_fixtures": 15,
+  "models_unchanged": true,
+  "generated_at": "2026-11-15T13:57:31.648810+00:00",
+  "python": "3.12.14",
+  "os": "Windows-11-10.0.26200-SP0"
+}

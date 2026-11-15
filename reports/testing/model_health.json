@@ -1,0 +1,392 @@
+{
+  "cart": {
+    "name": "CART",
+    "metrics": {
+      "accuracy": 0.6128048780487805,
+      "precision": 0.5043478260869565,
+      "recall": 0.453125,
+      "f1": 0.4773662551440329,
+      "balanced_accuracy": 0.5840624999999999,
+      "roc_auc": 0.6103564453125,
+      "pr_auc": 0.5230421421272962,
+      "brier": 0.24201890047484523,
+      "log_loss": 0.6831784946437518,
+      "confusion_matrix": [
+        [
+          286,
+          114
+        ],
+        [
+          140,
+          116
+        ]
+      ],
+      "false_potable_rate": 0.285,
+      "classification_report": {
+        "0": {
+          "precision": 0.6713615023474179,
+          "recall": 0.715,
+          "f1-score": 0.6924939467312349,
+          "support": 400.0
+        },
+        "1": {
+          "precision": 0.5043478260869565,
+          "recall": 0.453125,
+          "f1-score": 0.4773662551440329,
+          "support": 256.0
+        },
+        "accuracy": 0.6128048780487805,
+        "macro avg": {
+          "precision": 0.5878546642171871,
+          "recall": 0.5840624999999999,
+          "f1-score": 0.5849301009376339,
+          "support": 656.0
+        },
+        "weighted avg": {
+          "precision": 0.6061854335628476,
+          "recall": 0.6128048780487805,
+          "f1-score": 0.6085416768435463,
+          "support": 656.0
+        }
+      }
+    },
+    "probabilities": {
+      "count": 656,
+      "predicted_potable": 230,
+      "predicted_nonpotable": 426,
+      "unique_probabilities": 43,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4763921065741415,
+      "std": 0.21263509725369786,
+      "quantiles": [
+        0.0,
+        0.18213772653811794,
+        0.4087542731467106,
+        0.45289079229122176,
+        0.5873357698240963,
+        0.7962926051425154,
+        1.0
+      ]
+    },
+    "actual_distribution": {
+      "nonpotable": 400,
+      "potable": 256
+    },
+    "false_potable": 114,
+    "false_nonpotable": 140,
+    "calibration": "Uncalibrated model probabilities"
+  },
+  "rf": {
+    "name": "Random Forest",
+    "metrics": {
+      "accuracy": 0.6524390243902439,
+      "precision": 0.5752688172043011,
+      "recall": 0.41796875,
+      "f1": 0.4841628959276018,
+      "balanced_accuracy": 0.610234375,
+      "roc_auc": 0.665341796875,
+      "pr_auc": 0.6028235142139258,
+      "brier": 0.2177516860272115,
+      "log_loss": 0.6251870432344911,
+      "confusion_matrix": [
+        [
+          321,
+          79
+        ],
+        [
+          149,
+          107
+        ]
+      ],
+      "false_potable_rate": 0.1975,
+      "classification_report": {
+        "0": {
+          "precision": 0.6829787234042554,
+          "recall": 0.8025,
+          "f1-score": 0.7379310344827587,
+          "support": 400.0
+        },
+        "1": {
+          "precision": 0.5752688172043011,
+          "recall": 0.41796875,
+          "f1-score": 0.4841628959276018,
+          "support": 256.0
+        },
+        "accuracy": 0.6524390243902439,
+        "macro avg": {
+          "precision": 0.6291237703042782,
+          "recall": 0.610234375,
+          "f1-score": 0.6110469652051802,
+          "support": 656.0
+        },
+        "weighted avg": {
+          "precision": 0.640945589277444,
+          "recall": 0.6524390243902439,
+          "f1-score": 0.6388995657783073,
+          "support": 656.0
+        }
+      }
+    },
+    "probabilities": {
+      "count": 656,
+      "predicted_potable": 186,
+      "predicted_nonpotable": 470,
+      "unique_probabilities": 656,
+      "min": 0.14905894372608824,
+      "max": 0.868813197501207,
+      "mean": 0.4398612034991433,
+      "std": 0.12564940872052804,
+      "quantiles": [
+        0.14905894372608824,
+        0.29015624446248034,
+        0.3528963962179395,
+        0.42814114806680986,
+        0.5152917827452871,
+        0.6061477750477242,
+        0.868813197501207
+      ]
+    },
+    "actual_distribution": {
+      "nonpotable": 400,
+      "potable": 256
+    },
+    "false_potable": 79,
+    "false_nonpotable": 149,
+    "calibration": "Uncalibrated model probabilities"
+  },
+  "ada": {
+    "name": "AdaBoost",
+    "metrics": {
+      "accuracy": 0.6204268292682927,
+      "precision": 0.6842105263157895,
+      "recall": 0.05078125,
+      "f1": 0.09454545454545454,
+      "balanced_accuracy": 0.5178906249999999,
+      "roc_auc": 0.5655615234375001,
+      "pr_auc": 0.44711220734588436,
+      "brier": 0.24116764726176299,
+      "log_loss": 0.6776092387305287,
+      "confusion_matrix": [
+        [
+          394,
+          6
+        ],
+        [
+          243,
+          13
+        ]
+      ],
+      "false_potable_rate": 0.015,
+      "classification_report": {
+        "0": {
+          "precision": 0.6185243328100472,
+          "recall": 0.985,
+          "f1-score": 0.759884281581485,
+          "support": 400.0
+        },
+        "1": {
+          "precision": 0.6842105263157895,
+          "recall": 0.05078125,
+          "f1-score": 0.09454545454545454,
+          "support": 256.0
+        },
+        "accuracy": 0.6204268292682927,
+        "macro avg": {
+          "precision": 0.6513674295629184,
+          "recall": 0.5178906249999999,
+          "f1-score": 0.42721486806346975,
+          "support": 656.0
+        },
+        "weighted avg": {
+          "precision": 0.644157969300093,
+          "recall": 0.6204268292682927,
+          "f1-score": 0.5002398612747414,
+          "support": 656.0
+        }
+      }
+    },
+    "probabilities": {
+      "count": 656,
+      "predicted_potable": 19,
+      "predicted_nonpotable": 637,
+      "unique_probabilities": 28,
+      "min": 0.19331944311597457,
+      "max": 0.6955696078335103,
+      "mean": 0.30358819018417765,
+      "std": 0.08643315978276474,
+      "quantiles": [
+        0.19331944311597457,
+        0.2398309013423312,
+        0.27203501027826277,
+        0.27203501027826277,
+        0.32818338888774257,
+        0.4132134303063158,
+        0.6955696078335103
+      ]
+    },
+    "actual_distribution": {
+      "nonpotable": 400,
+      "potable": 256
+    },
+    "false_potable": 6,
+    "false_nonpotable": 243,
+    "calibration": "Uncalibrated model probabilities"
+  },
+  "gb": {
+    "name": "Gradient Boosting",
+    "metrics": {
+      "accuracy": 0.6570121951219512,
+      "precision": 0.6371681415929203,
+      "recall": 0.28125,
+      "f1": 0.3902439024390244,
+      "balanced_accuracy": 0.589375,
+      "roc_auc": 0.6544921875,
+      "pr_auc": 0.5841022489392194,
+      "brier": 0.2169104462928416,
+      "log_loss": 0.622772242354802,
+      "confusion_matrix": [
+        [
+          359,
+          41
+        ],
+        [
+          184,
+          72
+        ]
+      ],
+      "false_potable_rate": 0.1025,
+      "classification_report": {
+        "0": {
+          "precision": 0.6611418047882136,
+          "recall": 0.8975,
+          "f1-score": 0.7613997879109226,
+          "support": 400.0
+        },
+        "1": {
+          "precision": 0.6371681415929203,
+          "recall": 0.28125,
+          "f1-score": 0.3902439024390244,
+          "support": 256.0
+        },
+        "accuracy": 0.6570121951219512,
+        "macro avg": {
+          "precision": 0.649154973190567,
+          "recall": 0.589375,
+          "f1-score": 0.5758218451749735,
+          "support": 656.0
+        },
+        "weighted avg": {
+          "precision": 0.6517862289071237,
+          "recall": 0.6570121951219512,
+          "f1-score": 0.6165584667511574,
+          "support": 656.0
+        }
+      }
+    },
+    "probabilities": {
+      "count": 656,
+      "predicted_potable": 113,
+      "predicted_nonpotable": 543,
+      "unique_probabilities": 656,
+      "min": 0.07685739157927918,
+      "max": 0.9911688028432044,
+      "mean": 0.38909757606997086,
+      "std": 0.14058746352377152,
+      "quantiles": [
+        0.07685739157927918,
+        0.2441372122201566,
+        0.2998196193598514,
+        0.36259887068681723,
+        0.4518915511899221,
+        0.5732600884920447,
+        0.9911688028432044
+      ]
+    },
+    "actual_distribution": {
+      "nonpotable": 400,
+      "potable": 256
+    },
+    "false_potable": 41,
+    "false_nonpotable": 184,
+    "calibration": "Uncalibrated model probabilities"
+  },
+  "voting": {
+    "name": "Voting Ensemble",
+    "metrics": {
+      "accuracy": 0.6661585365853658,
+      "precision": 0.6697247706422018,
+      "recall": 0.28515625,
+      "f1": 0.4,
+      "balanced_accuracy": 0.5975781250000001,
+      "roc_auc": 0.651826171875,
+      "pr_auc": 0.590536983063834,
+      "brier": 0.2166265302160055,
+      "log_loss": 0.622616440989495,
+      "confusion_matrix": [
+        [
+          364,
+          36
+        ],
+        [
+          183,
+          73
+        ]
+      ],
+      "false_potable_rate": 0.09,
+      "classification_report": {
+        "0": {
+          "precision": 0.6654478976234004,
+          "recall": 0.91,
+          "f1-score": 0.7687434002111933,
+          "support": 400.0
+        },
+        "1": {
+          "precision": 0.6697247706422018,
+          "recall": 0.28515625,
+          "f1-score": 0.4,
+          "support": 256.0
+        },
+        "accuracy": 0.6661585365853658,
+        "macro avg": {
+          "precision": 0.6675863341328011,
+          "recall": 0.5975781250000001,
+          "f1-score": 0.5843717001055966,
+          "support": 656.0
+        },
+        "weighted avg": {
+          "precision": 0.6671169212404937,
+          "recall": 0.6661585365853658,
+          "f1-score": 0.6248435367141423,
+          "support": 656.0
+        }
+      }
+    },
+    "probabilities": {
+      "count": 656,
+      "predicted_potable": 109,
+      "predicted_nonpotable": 547,
+      "unique_probabilities": 656,
+      "min": 0.13752450605907676,
+      "max": 0.8765173043731613,
+      "mean": 0.40223476908185835,
+      "std": 0.11588056130419352,
+      "quantiles": [
+        0.13752450605907676,
+        0.27682469874924176,
+        0.3341651640508437,
+        0.38508501666493955,
+        0.45440519841488397,
+        0.5544857524681615,
+        0.8765173043731613
+      ]
+    },
+    "actual_distribution": {
+      "nonpotable": 400,
+      "potable": 256
+    },
+    "false_potable": 36,
+    "false_nonpotable": 183,
+    "calibration": "Uncalibrated model probabilities"
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680"><rect width="100%" height="100%" fill="white"/>
+<text x="50" y="42" font-family="Arial" font-size="24" font-weight="bold" fill="#18212f">Potability class distribution</text>
+<text x="50" y="68" font-family="Arial" font-size="14" fill="#536170">Observed dataset target counts (0 = non-potable; 1 = potable)</text>
+<rect x="300" y="160.0" width="150" height="400.0" fill="#2563eb"/>
+<text x="375.0" y="148.0" text-anchor="middle" font-family="Arial" font-size="16" fill="#18212f">1,998 (61.0%)</text>
+<text x="375.0" y="585.0" text-anchor="middle" font-family="Arial" font-size="14" fill="#18212f">Non-potable (0)</text>
+<rect x="600" y="304.1" width="150" height="255.9" fill="#059669"/>
+<text x="675.0" y="292.1" text-anchor="middle" font-family="Arial" font-size="16" fill="#18212f">1,278 (39.0%)</text>
+<text x="675.0" y="585.0" text-anchor="middle" font-family="Arial" font-size="14" fill="#18212f">Potable (1)</text>
+</svg>

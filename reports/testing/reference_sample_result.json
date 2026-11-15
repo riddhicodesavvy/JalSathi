@@ -1,0 +1,175 @@
+{
+  "analysis_id": "f5a2aae1-e057-46a4-b7a8-47e948301511",
+  "created_at": "2026-11-15T13:57:28.391528+00:00",
+  "source": "single",
+  "measurements": {
+    "ph": 7.2,
+    "Hardness": 180.0,
+    "Solids": 15000.0,
+    "Chloramines": 7.0,
+    "Sulfate": 300.0,
+    "Conductivity": 400.0,
+    "Organic_carbon": 12.0,
+    "Trihalomethanes": 65.0,
+    "Turbidity": 3.0
+  },
+  "primary_model": "rf",
+  "version": "904004bde7-seed42-v1",
+  "predicted_class": 0,
+  "label": "Predicted Non-Potable",
+  "selected_class_probability": 0.599976618325621,
+  "calibration": "Uncalibrated",
+  "models": [
+    {
+      "id": "cart",
+      "name": "CART",
+      "predicted_class": 0,
+      "label": "Predicted Non-Potable",
+      "potable_probability": 0.47211592571750277,
+      "selected_class_probability": 0.5278840742824973
+    },
+    {
+      "id": "rf",
+      "name": "Random Forest",
+      "predicted_class": 0,
+      "label": "Predicted Non-Potable",
+      "potable_probability": 0.40002338167437895,
+      "selected_class_probability": 0.599976618325621
+    },
+    {
+      "id": "ada",
+      "name": "AdaBoost",
+      "predicted_class": 0,
+      "label": "Predicted Non-Potable",
+      "potable_probability": 0.27203501027826277,
+      "selected_class_probability": 0.7279649897217373
+    },
+    {
+      "id": "gb",
+      "name": "Gradient Boosting",
+      "predicted_class": 0,
+      "label": "Predicted Non-Potable",
+      "potable_probability": 0.3453653702432425,
+      "selected_class_probability": 0.6546346297567576
+    },
+    {
+      "id": "voting",
+      "name": "Voting Ensemble",
+      "predicted_class": 0,
+      "label": "Predicted Non-Potable",
+      "potable_probability": 0.3723849219783467,
+      "selected_class_probability": 0.6276150780216533
+    }
+  ],
+  "agreement_count": 5,
+  "agreement_percentage": 100.0,
+  "parameters": [
+    {
+      "feature": "ph",
+      "value": 7.2,
+      "status": "within",
+      "unit": "dimensionless",
+      "reference": "6.5\u20138.5",
+      "source": "https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals",
+      "jurisdiction": "US EPA secondary (aesthetic/corrosion) guidance; not an Indian certification",
+      "reason": null
+    },
+    {
+      "feature": "Hardness",
+      "value": 180.0,
+      "status": "unknown",
+      "unit": "dataset units unverified",
+      "reference": "No verified applicable reference",
+      "source": null,
+      "jurisdiction": null,
+      "reason": "Comparison unavailable: units or applicable threshold unverified."
+    },
+    {
+      "feature": "Solids",
+      "value": 15000.0,
+      "status": "unknown",
+      "unit": "dataset units unverified",
+      "reference": "TDS \u2264500 mg/L (mapping/units unverified)",
+      "source": "https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals",
+      "jurisdiction": "US EPA secondary (aesthetic) guidance",
+      "reason": "Comparison unavailable: units or applicable threshold unverified."
+    },
+    {
+      "feature": "Chloramines",
+      "value": 7.0,
+      "status": "unknown",
+      "unit": "dataset units unverified",
+      "reference": "No verified applicable reference",
+      "source": null,
+      "jurisdiction": null,
+      "reason": "Comparison unavailable: units or applicable threshold unverified."
+    },
+    {
+      "feature": "Sulfate",
+      "value": 300.0,
+      "status": "unknown",
+      "unit": "dataset units unverified",
+      "reference": "\u2264250 mg/L (units unverified)",
+      "source": "https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals",
+      "jurisdiction": "US EPA secondary (aesthetic) guidance",
+      "reason": "Comparison unavailable: units or applicable threshold unverified."
+    },
+    {
+      "feature": "Conductivity",
+      "value": 400.0,
+      "status": "unknown",
+      "unit": "dataset units unverified",
+      "reference": "No verified applicable reference",
+      "source": null,
+      "jurisdiction": null,
+      "reason": "Comparison unavailable: units or applicable threshold unverified."
+    },
+    {
+      "feature": "Organic_carbon",
+      "value": 12.0,
+      "status": "unknown",
+      "unit": "dataset units unverified",
+      "reference": "No verified applicable reference",
+      "source": null,
+      "jurisdiction": null,
+      "reason": "Comparison unavailable: units or applicable threshold unverified."
+    },
+    {
+      "feature": "Trihalomethanes",
+      "value": 65.0,
+      "status": "unknown",
+      "unit": "dataset units unverified",
+      "reference": "No verified applicable reference",
+      "source": null,
+      "jurisdiction": null,
+      "reason": "Comparison unavailable: units or applicable threshold unverified."
+    },
+    {
+      "feature": "Turbidity",
+      "value": 3.0,
+      "status": "unknown",
+      "unit": "dataset units unverified",
+      "reference": "No verified applicable reference",
+      "source": null,
+      "jurisdiction": null,
+      "reason": "Comparison unavailable: units or applicable threshold unverified."
+    }
+  ],
+  "warnings": [
+    "Eight mass/unit-based reference comparisons are unavailable; dataset units are unverified.",
+    "Microbial and other essential safety tests are missing. No drinking-water certification."
+  ],
+  "decision_path": [
+    "Sulfate 300.000 > 260.920",
+    "Sulfate 300.000 \u2264 387.857",
+    "ph 7.200 > 4.704",
+    "Hardness 180.000 > 136.728",
+    "Sulfate 300.000 > 294.785",
+    "ph 7.200 \u2264 8.434",
+    "Sulfate 300.000 \u2264 353.568",
+    "ph 7.200 > 7.062",
+    "Organic_carbon 12.000 \u2264 18.888",
+    "Hardness 180.000 > 163.222"
+  ],
+  "disclaimer": "Educational screening estimate only. Model probability is not the probability that water is safe. Laboratory testing, including microbial and other contaminants, is required before consumption."
+}

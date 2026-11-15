@@ -1,0 +1,17 @@
+{
+  "executed": 6,
+  "passed": 6,
+  "failed": 0,
+  "desktop_labeled_form_submissions": 50,
+  "desktop_positive_labels": 25,
+  "desktop_negative_labels": 25,
+  "desktop_observed_rf_potable": 18,
+  "desktop_observed_rf_nonpotable": 32,
+  "mobile_labeled_form_submissions": 3,
+  "regressions": [
+    "Failed re-analysis clears previous result on desktop and mobile",
+    "Pending requests lock inputs/reset and Analyze Another clears/focuses correctly on desktop and mobile"
+  ],
+  "parity": {"desktop_samples":50,"mobile_samples":3,"model_comparisons":265,"mismatches":0},
+  "isolation": "QA API localhost:8001 and UI localhost:5175; separate SQLite database"
+}

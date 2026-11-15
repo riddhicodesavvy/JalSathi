@@ -1,0 +1,752 @@
+[
+  {
+    "dataset_index": 2343,
+    "true_label": 1,
+    "measurements": {
+      "ph": 2.538115773481364,
+      "Hardness": 100.80651972166484,
+      "Solids": 19872.85485390749,
+      "Chloramines": 5.01402281172122,
+      "Sulfate": 417.9999999849433,
+      "Conductivity": 420.8308663494658,
+      "Organic_carbon": 13.980890927706357,
+      "Trihalomethanes": 85.94319230652454,
+      "Turbidity": 2.8400972144695893
+    }
+  },
+  {
+    "dataset_index": 1913,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.280560356935292,
+      "Hardness": 228.53954269712443,
+      "Solids": 29690.917157925207,
+      "Chloramines": 7.871025150780389,
+      "Sulfate": 322.26966084267,
+      "Conductivity": 392.5325974868163,
+      "Organic_carbon": 15.168189203559225,
+      "Trihalomethanes": 84.37071294892223,
+      "Turbidity": 2.919796004979838
+    }
+  },
+  {
+    "dataset_index": 363,
+    "true_label": 1,
+    "measurements": {
+      "ph": 4.812433652167467,
+      "Hardness": 250.18395350436757,
+      "Solids": 11465.575643229397,
+      "Chloramines": 4.362641197928316,
+      "Sulfate": 398.1619035842361,
+      "Conductivity": 607.0265423247766,
+      "Organic_carbon": 18.2100315015482,
+      "Trihalomethanes": 62.51146711144481,
+      "Turbidity": 3.020995900341481
+    }
+  },
+  {
+    "dataset_index": 2773,
+    "true_label": 1,
+    "measurements": {
+      "ph": 9.25289339735736,
+      "Hardness": 236.0987858057547,
+      "Solids": 12855.346238177452,
+      "Chloramines": 5.784975793149856,
+      "Sulfate": 276.2863048240161,
+      "Conductivity": 329.9227653683522,
+      "Organic_carbon": 12.609076683762396,
+      "Trihalomethanes": 55.617760011103655,
+      "Turbidity": 3.566434730432753
+    }
+  },
+  {
+    "dataset_index": 378,
+    "true_label": 1,
+    "measurements": {
+      "ph": 6.105140135043556,
+      "Hardness": 249.1413910240583,
+      "Solids": 45249.44903301682,
+      "Chloramines": 7.369360303120931,
+      "Sulfate": 338.7713073274613,
+      "Conductivity": 314.96508973191135,
+      "Organic_carbon": 11.251777805654967,
+      "Trihalomethanes": 88.65747731531798,
+      "Turbidity": 3.1030898440692822
+    }
+  },
+  {
+    "dataset_index": 1974,
+    "true_label": 1,
+    "measurements": {
+      "ph": 6.549124998345768,
+      "Hardness": 194.27685675261148,
+      "Solids": 7412.798058876675,
+      "Chloramines": 5.836980435814227,
+      "Sulfate": 354.8211938420816,
+      "Conductivity": 361.03723822946847,
+      "Organic_carbon": 11.672190501119816,
+      "Trihalomethanes": 57.31697667532342,
+      "Turbidity": 4.42105884351
+    }
+  },
+  {
+    "dataset_index": 1133,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.890354273534902,
+      "Hardness": 180.15809804559115,
+      "Solids": 32160.533923449733,
+      "Chloramines": 7.773484085746959,
+      "Sulfate": 360.28398342597546,
+      "Conductivity": 344.55061925335406,
+      "Organic_carbon": 11.246460375624338,
+      "Trihalomethanes": 60.29218733177518,
+      "Turbidity": 3.209588058451998
+    }
+  },
+  {
+    "dataset_index": 2350,
+    "true_label": 1,
+    "measurements": {
+      "ph": 5.092757238606061,
+      "Hardness": 239.74091609522557,
+      "Solids": 28390.891358276323,
+      "Chloramines": 1.3908709048851806,
+      "Sulfate": 258.4442941492116,
+      "Conductivity": 452.30604162154367,
+      "Organic_carbon": 13.837351933671355,
+      "Trihalomethanes": 71.51205256741277,
+      "Turbidity": 4.636728696472332
+    }
+  },
+  {
+    "dataset_index": 2848,
+    "true_label": 1,
+    "measurements": {
+      "ph": 6.427720560503044,
+      "Hardness": 166.85023675863397,
+      "Solids": 12215.40908259904,
+      "Chloramines": 7.696751399214669,
+      "Sulfate": 376.2826172102236,
+      "Conductivity": 352.7453698304618,
+      "Organic_carbon": 20.130482589071505,
+      "Trihalomethanes": 66.73504403038288,
+      "Turbidity": 2.9044533996755977
+    }
+  },
+  {
+    "dataset_index": 1512,
+    "true_label": 1,
+    "measurements": {
+      "ph": 6.977267851638903,
+      "Hardness": 223.2788912795077,
+      "Solids": 20287.35977041667,
+      "Chloramines": 5.274744658651156,
+      "Sulfate": 282.08571927370417,
+      "Conductivity": 377.00039202666665,
+      "Organic_carbon": 14.04627750432138,
+      "Trihalomethanes": 67.62724105537315,
+      "Turbidity": 2.3670413093414906
+    }
+  },
+  {
+    "dataset_index": 3198,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.503085765108365,
+      "Hardness": 186.71332903022403,
+      "Solids": 32000.178936298867,
+      "Chloramines": 7.641776466935965,
+      "Sulfate": 315.97414706420983,
+      "Conductivity": 473.5316110532757,
+      "Organic_carbon": 12.049130600518822,
+      "Trihalomethanes": 43.28047645668155,
+      "Turbidity": 4.3055136249312
+    }
+  },
+  {
+    "dataset_index": 3209,
+    "true_label": 1,
+    "measurements": {
+      "ph": 4.857802623979042,
+      "Hardness": 222.39999014607184,
+      "Solids": 15668.27361760507,
+      "Chloramines": 7.900790105684598,
+      "Sulfate": 320.3945294476844,
+      "Conductivity": 417.8040633715207,
+      "Organic_carbon": 15.530563359834105,
+      "Trihalomethanes": 84.22877379496049,
+      "Turbidity": 3.966570844524399
+    }
+  },
+  {
+    "dataset_index": 1099,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.269652252805362,
+      "Hardness": 155.15752028729122,
+      "Solids": 31161.36838769933,
+      "Chloramines": 3.18118329063755,
+      "Sulfate": 244.7951979260926,
+      "Conductivity": 506.0101352324282,
+      "Organic_carbon": 17.385514977402067,
+      "Trihalomethanes": 73.11505279347217,
+      "Turbidity": 3.789236756581051
+    }
+  },
+  {
+    "dataset_index": 807,
+    "true_label": 1,
+    "measurements": {
+      "ph": 9.869231934989052,
+      "Hardness": 223.7726613185774,
+      "Solids": 29549.65882291618,
+      "Chloramines": 7.716922923418477,
+      "Sulfate": 281.11849034749616,
+      "Conductivity": 356.1819158560579,
+      "Organic_carbon": 14.202664062204065,
+      "Trihalomethanes": 84.01358459214303,
+      "Turbidity": 4.736849577023042
+    }
+  },
+  {
+    "dataset_index": 2841,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.612516822631869,
+      "Hardness": 225.49279278281443,
+      "Solids": 14812.970644801802,
+      "Chloramines": 7.982595216401367,
+      "Sulfate": 356.690173623383,
+      "Conductivity": 341.07492458185163,
+      "Organic_carbon": 14.99466235221132,
+      "Trihalomethanes": 55.89391550738455,
+      "Turbidity": 2.93959347170948
+    }
+  },
+  {
+    "dataset_index": 1604,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.278910903182803,
+      "Hardness": 135.25927247295698,
+      "Solids": 22184.52703251262,
+      "Chloramines": 7.156540539745273,
+      "Sulfate": 357.9097951607645,
+      "Conductivity": 480.143108594428,
+      "Organic_carbon": 11.316001571498248,
+      "Trihalomethanes": 54.9439919588549,
+      "Turbidity": 4.201577246628757
+    }
+  },
+  {
+    "dataset_index": 1636,
+    "true_label": 1,
+    "measurements": {
+      "ph": 6.706695161498074,
+      "Hardness": 232.92659800920364,
+      "Solids": 27881.504407398363,
+      "Chloramines": 7.881448097184417,
+      "Sulfate": 337.1110166665463,
+      "Conductivity": 443.20877425682056,
+      "Organic_carbon": 14.523389119631815,
+      "Trihalomethanes": 64.12174012693116,
+      "Turbidity": 4.371882444533677
+    }
+  },
+  {
+    "dataset_index": 2025,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.338826110612727,
+      "Hardness": 229.9786941456632,
+      "Solids": 12603.400371363736,
+      "Chloramines": 5.975488073209139,
+      "Sulfate": 351.31882632743674,
+      "Conductivity": 370.86063167906366,
+      "Organic_carbon": 19.38933723250585,
+      "Trihalomethanes": 79.97164724934899,
+      "Turbidity": 4.01706111949955
+    }
+  },
+  {
+    "dataset_index": 2861,
+    "true_label": 1,
+    "measurements": {
+      "ph": 9.318613915632229,
+      "Hardness": 317.33812405558257,
+      "Solids": 24497.873935207102,
+      "Chloramines": 7.597451675399671,
+      "Sulfate": 357.1672167520999,
+      "Conductivity": 476.5103844769183,
+      "Organic_carbon": 12.032377106951742,
+      "Trihalomethanes": 68.59982978933556,
+      "Turbidity": 4.642719286485374
+    }
+  },
+  {
+    "dataset_index": 810,
+    "true_label": 1,
+    "measurements": {
+      "ph": 0.9899122128791388,
+      "Hardness": 133.21694156018071,
+      "Solids": 16922.853898585203,
+      "Chloramines": 9.29328864439756,
+      "Sulfate": 444.3757306927798,
+      "Conductivity": 322.29119123589123,
+      "Organic_carbon": 10.430076340816356,
+      "Trihalomethanes": 43.57846551188423,
+      "Turbidity": 5.160603788160604
+    }
+  },
+  {
+    "dataset_index": 1993,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.657541728081206,
+      "Hardness": 230.8200077128855,
+      "Solids": 35056.2322337289,
+      "Chloramines": 7.656806896244371,
+      "Sulfate": 364.1301406497154,
+      "Conductivity": 305.6294092977496,
+      "Organic_carbon": 18.4813964076003,
+      "Trihalomethanes": 72.20507471179636,
+      "Turbidity": 4.792527452455119
+    }
+  },
+  {
+    "dataset_index": 2762,
+    "true_label": 1,
+    "measurements": {
+      "ph": 6.100245391093,
+      "Hardness": 160.60823048420997,
+      "Solids": 13886.809713477494,
+      "Chloramines": 7.542775331563176,
+      "Sulfate": 366.688794745683,
+      "Conductivity": 449.94828652782576,
+      "Organic_carbon": 18.72285988661741,
+      "Trihalomethanes": 64.39052126130528,
+      "Turbidity": 2.174898198676531
+    }
+  },
+  {
+    "dataset_index": 1083,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.71408935995488,
+      "Hardness": 194.73828216189685,
+      "Solids": 27336.962623971183,
+      "Chloramines": 7.631357065523394,
+      "Sulfate": 322.0729562813039,
+      "Conductivity": 347.82920330934246,
+      "Organic_carbon": 10.641789193560784,
+      "Trihalomethanes": 63.722932912340696,
+      "Turbidity": 3.1825828574638706
+    }
+  },
+  {
+    "dataset_index": 1488,
+    "true_label": 1,
+    "measurements": {
+      "ph": 7.255798597493364,
+      "Hardness": 200.1637946160672,
+      "Solids": 32595.120243522197,
+      "Chloramines": 7.5724354712978945,
+      "Sulfate": 324.5515135073473,
+      "Conductivity": 489.272160165231,
+      "Organic_carbon": 12.305634411994504,
+      "Trihalomethanes": 45.68742145475983,
+      "Turbidity": 3.968177082539273
+    }
+  },
+  {
+    "dataset_index": 1560,
+    "true_label": 1,
+    "measurements": {
+      "ph": 6.460033522100627,
+      "Hardness": 215.440641301999,
+      "Solids": 35775.793395721885,
+      "Chloramines": 6.502544137326676,
+      "Sulfate": 307.563454895814,
+      "Conductivity": 365.09414345117847,
+      "Organic_carbon": 8.127542868467742,
+      "Trihalomethanes": 77.55495328187686,
+      "Turbidity": 3.535597778692289
+    }
+  },
+  {
+    "dataset_index": 2259,
+    "true_label": 0,
+    "measurements": {
+      "ph": 7.855906367971113,
+      "Hardness": 209.7518023645169,
+      "Solids": 19850.182892294943,
+      "Chloramines": 8.038872166572107,
+      "Sulfate": 300.2929541952037,
+      "Conductivity": 368.4375609090064,
+      "Organic_carbon": 18.52520715720425,
+      "Trihalomethanes": 57.23887404032818,
+      "Turbidity": 4.15188982992317
+    }
+  },
+  {
+    "dataset_index": 2994,
+    "true_label": 0,
+    "measurements": {
+      "ph": 4.497585145008658,
+      "Hardness": 193.93651490709837,
+      "Solids": 27768.382870133544,
+      "Chloramines": 6.9063478052980125,
+      "Sulfate": 330.4307003631261,
+      "Conductivity": 556.0329223405597,
+      "Organic_carbon": 22.618411189092,
+      "Trihalomethanes": 81.2658162848684,
+      "Turbidity": 4.965738556348034
+    }
+  },
+  {
+    "dataset_index": 1350,
+    "true_label": 0,
+    "measurements": {
+      "ph": 8.82809437489545,
+      "Hardness": 196.5628526862427,
+      "Solids": 17699.610609435225,
+      "Chloramines": 8.94038013799541,
+      "Sulfate": 379.91428557925406,
+      "Conductivity": 486.8632669355406,
+      "Organic_carbon": 17.517282837186485,
+      "Trihalomethanes": 61.1828443476096,
+      "Turbidity": 3.793317686196644
+    }
+  },
+  {
+    "dataset_index": 26,
+    "true_label": 0,
+    "measurements": {
+      "ph": 3.4450618643852127,
+      "Hardness": 207.92626018799376,
+      "Solids": 33424.7686784948,
+      "Chloramines": 8.782147480773485,
+      "Sulfate": 384.0070058017212,
+      "Conductivity": 441.7858756739387,
+      "Organic_carbon": 13.80590221127079,
+      "Trihalomethanes": 30.284597198002704,
+      "Turbidity": 4.184396969028851
+    }
+  },
+  {
+    "dataset_index": 130,
+    "true_label": 0,
+    "measurements": {
+      "ph": 6.643935774662305,
+      "Hardness": 151.8896001137799,
+      "Solids": 10909.194592323076,
+      "Chloramines": 3.749625148300965,
+      "Sulfate": 240.93672213751188,
+      "Conductivity": 437.9090051656054,
+      "Organic_carbon": 15.264742348024072,
+      "Trihalomethanes": 64.20396370266333,
+      "Turbidity": 3.8129529259917896
+    }
+  },
+  {
+    "dataset_index": 1006,
+    "true_label": 0,
+    "measurements": {
+      "ph": 7.230845306553176,
+      "Hardness": 177.57480307423378,
+      "Solids": 17864.689385537968,
+      "Chloramines": 5.818229015846422,
+      "Sulfate": 343.5933323950082,
+      "Conductivity": 367.689991785902,
+      "Organic_carbon": 19.912950169640908,
+      "Trihalomethanes": 59.30305301704904,
+      "Turbidity": 5.622018080855884
+    }
+  },
+  {
+    "dataset_index": 1766,
+    "true_label": 0,
+    "measurements": {
+      "ph": 7.984710742242038,
+      "Hardness": 121.06735745563192,
+      "Solids": 40709.781662842805,
+      "Chloramines": 5.796841349089036,
+      "Sulfate": 445.3595466581445,
+      "Conductivity": 338.5099837257605,
+      "Organic_carbon": 12.818816297141607,
+      "Trihalomethanes": 59.26919287846297,
+      "Turbidity": 4.567879972284673
+    }
+  },
+  {
+    "dataset_index": 207,
+    "true_label": 0,
+    "measurements": {
+      "ph": 7.947485785725746,
+      "Hardness": 269.80940702116914,
+      "Solids": 34440.77343351387,
+      "Chloramines": 6.958283209737815,
+      "Sulfate": 390.1042228776426,
+      "Conductivity": 425.62781398964114,
+      "Organic_carbon": 13.749261313977344,
+      "Trihalomethanes": 56.6358113166401,
+      "Turbidity": 3.700853839705055
+    }
+  },
+  {
+    "dataset_index": 98,
+    "true_label": 0,
+    "measurements": {
+      "ph": 7.205559174588729,
+      "Hardness": 120.32761534360888,
+      "Solids": 24627.867560468934,
+      "Chloramines": 6.202469332114029,
+      "Sulfate": 289.7686965533282,
+      "Conductivity": 418.4332899200773,
+      "Organic_carbon": 13.643147085869316,
+      "Trihalomethanes": 63.73373237019648,
+      "Turbidity": 3.710053125679874
+    }
+  },
+  {
+    "dataset_index": 2964,
+    "true_label": 0,
+    "measurements": {
+      "ph": 8.90373377508948,
+      "Hardness": 194.216275243167,
+      "Solids": 13319.495705340682,
+      "Chloramines": 5.56689579210772,
+      "Sulfate": 323.42436241769934,
+      "Conductivity": 317.3492443408267,
+      "Organic_carbon": 17.130157597690697,
+      "Trihalomethanes": 61.42879054902781,
+      "Turbidity": 4.365169641644011
+    }
+  },
+  {
+    "dataset_index": 959,
+    "true_label": 0,
+    "measurements": {
+      "ph": 6.138785151951198,
+      "Hardness": 158.4221289921539,
+      "Solids": 20129.97881979117,
+      "Chloramines": 6.812142878738287,
+      "Sulfate": 352.2299607158941,
+      "Conductivity": 373.8436198842412,
+      "Organic_carbon": 13.417813082753751,
+      "Trihalomethanes": 80.73109689533284,
+      "Turbidity": 4.677289618268685
+    }
+  },
+  {
+    "dataset_index": 1434,
+    "true_label": 0,
+    "measurements": {
+      "ph": 7.322502050459663,
+      "Hardness": 196.104297672134,
+      "Solids": 19534.42164849964,
+      "Chloramines": 6.66115743127202,
+      "Sulfate": 297.8413812518475,
+      "Conductivity": 418.07551053196505,
+      "Organic_carbon": 17.161767683773007,
+      "Trihalomethanes": 69.46735908438419,
+      "Turbidity": 2.981649192437012
+    }
+  },
+  {
+    "dataset_index": 557,
+    "true_label": 0,
+    "measurements": {
+      "ph": 9.515140615244428,
+      "Hardness": 199.08131728073573,
+      "Solids": 9082.816175459164,
+      "Chloramines": 5.976549511454515,
+      "Sulfate": 367.23079221725766,
+      "Conductivity": 501.446833694912,
+      "Organic_carbon": 12.87712332014678,
+      "Trihalomethanes": 55.7706899569432,
+      "Turbidity": 3.8128876614746607
+    }
+  },
+  {
+    "dataset_index": 2706,
+    "true_label": 0,
+    "measurements": {
+      "ph": 7.873271692669199,
+      "Hardness": 182.64665849280084,
+      "Solids": 25337.12296312416,
+      "Chloramines": 3.715065351586488,
+      "Sulfate": 362.4846035904741,
+      "Conductivity": 315.1899480242942,
+      "Organic_carbon": 12.13242544717923,
+      "Trihalomethanes": 65.49992501934084,
+      "Turbidity": 3.306392909436918
+    }
+  },
+  {
+    "dataset_index": 2210,
+    "true_label": 0,
+    "measurements": {
+      "ph": 9.894562128568642,
+      "Hardness": 128.5857326504686,
+      "Solids": 26436.03332650556,
+      "Chloramines": 8.778717494397316,
+      "Sulfate": 349.74844570387813,
+      "Conductivity": 480.66761646294657,
+      "Organic_carbon": 9.105812814657725,
+      "Trihalomethanes": 65.32732964552372,
+      "Turbidity": 4.617532880225431
+    }
+  },
+  {
+    "dataset_index": 983,
+    "true_label": 0,
+    "measurements": {
+      "ph": 7.790874862321438,
+      "Hardness": 196.47871239391355,
+      "Solids": 24061.349595752938,
+      "Chloramines": 6.785685189577225,
+      "Sulfate": 350.11725381508217,
+      "Conductivity": 471.5185363734346,
+      "Organic_carbon": 15.343315642141532,
+      "Trihalomethanes": 44.5446270683158,
+      "Turbidity": 3.076214340708842
+    }
+  },
+  {
+    "dataset_index": 2940,
+    "true_label": 0,
+    "measurements": {
+      "ph": 3.9613890465892574,
+      "Hardness": 173.0296406068645,
+      "Solids": 24028.40540573667,
+      "Chloramines": 8.005631016283633,
+      "Sulfate": 391.00229976494296,
+      "Conductivity": 444.7942767179921,
+      "Organic_carbon": 19.94527978794798,
+      "Trihalomethanes": 59.8345407453442,
+      "Turbidity": 4.09296589972163
+    }
+  },
+  {
+    "dataset_index": 413,
+    "true_label": 0,
+    "measurements": {
+      "ph": 5.742110407437118,
+      "Hardness": 188.2166040178224,
+      "Solids": 26831.610410687943,
+      "Chloramines": 6.202721182268095,
+      "Sulfate": 318.3766763853137,
+      "Conductivity": 498.142386052752,
+      "Organic_carbon": 9.65736041733726,
+      "Trihalomethanes": 53.5085226672361,
+      "Turbidity": 3.323069563743198
+    }
+  },
+  {
+    "dataset_index": 134,
+    "true_label": 0,
+    "measurements": {
+      "ph": 6.078335836509272,
+      "Hardness": 197.50191189847263,
+      "Solids": 35957.79218259479,
+      "Chloramines": 8.130472208247298,
+      "Sulfate": 379.5277062923906,
+      "Conductivity": 360.06047735582746,
+      "Organic_carbon": 20.09841289135693,
+      "Trihalomethanes": 41.86595951021348,
+      "Turbidity": 4.20158090550856
+    }
+  },
+  {
+    "dataset_index": 2684,
+    "true_label": 0,
+    "measurements": {
+      "ph": 4.835297728180936,
+      "Hardness": 136.29503661188215,
+      "Solids": 23031.215807155997,
+      "Chloramines": 5.560179470099503,
+      "Sulfate": 358.933088695935,
+      "Conductivity": 567.4636696236504,
+      "Organic_carbon": 11.505803320357472,
+      "Trihalomethanes": 60.77385710991141,
+      "Turbidity": 3.633760608001249
+    }
+  },
+  {
+    "dataset_index": 2911,
+    "true_label": 0,
+    "measurements": {
+      "ph": 9.504157787679786,
+      "Hardness": 195.1092426963142,
+      "Solids": 19946.2646652382,
+      "Chloramines": 7.467684855451429,
+      "Sulfate": 300.67952794259867,
+      "Conductivity": 382.4730046177987,
+      "Organic_carbon": 14.359364956440686,
+      "Trihalomethanes": 78.30688566202299,
+      "Turbidity": 4.343041372691288
+    }
+  },
+  {
+    "dataset_index": 1435,
+    "true_label": 0,
+    "measurements": {
+      "ph": 5.198224971294214,
+      "Hardness": 173.11982132608853,
+      "Solids": 11178.40354379496,
+      "Chloramines": 5.893458351780593,
+      "Sulfate": 343.209876448911,
+      "Conductivity": 390.0656160436119,
+      "Organic_carbon": 14.160899492423198,
+      "Trihalomethanes": 65.43300783947389,
+      "Turbidity": 3.807318102819921
+    }
+  },
+  {
+    "dataset_index": 1878,
+    "true_label": 0,
+    "measurements": {
+      "ph": 5.921247069476017,
+      "Hardness": 200.94373043741763,
+      "Solids": 17397.40285771146,
+      "Chloramines": 6.756200028885186,
+      "Sulfate": 279.20230710049407,
+      "Conductivity": 380.4998179392721,
+      "Organic_carbon": 11.25535690102214,
+      "Trihalomethanes": 31.96629680923208,
+      "Turbidity": 3.7467755604654815
+    }
+  },
+  {
+    "dataset_index": 2662,
+    "true_label": 0,
+    "measurements": {
+      "ph": 5.428356913745278,
+      "Hardness": 167.0173833883084,
+      "Solids": 24930.19881121592,
+      "Chloramines": 7.967085789423574,
+      "Sulfate": 334.08697707537203,
+      "Conductivity": 400.3934374892375,
+      "Organic_carbon": 18.17914887553184,
+      "Trihalomethanes": 70.31269587431886,
+      "Turbidity": 2.847843537561225
+    }
+  },
+  {
+    "dataset_index": 2209,
+    "true_label": 0,
+    "measurements": {
+      "ph": 6.476139840300842,
+      "Hardness": 215.7217685786681,
+      "Solids": 21165.59064873942,
+      "Chloramines": 7.642952268827367,
+      "Sulfate": 348.4749425060669,
+      "Conductivity": 315.0781345609935,
+      "Organic_carbon": 13.543180211889933,
+      "Trihalomethanes": 46.16900715156537,
+      "Turbidity": 4.041580246514462
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "model_loading_seconds": 0.139929500001017,
+  "api_startup_seconds": 0.7105993999866769,
+  "single_latency_median_seconds": 0.17383690003771335,
+  "batches": [
+    {
+      "batch_rows": 10,
+      "seconds": 0.36429430003045127
+    },
+    {
+      "batch_rows": 100,
+      "seconds": 0.29863299999851733
+    },
+    {
+      "batch_rows": 500,
+      "seconds": 0.750535300001502
+    },
+    {
+      "batch_rows": 1000,
+      "seconds": 1.2205857000080869
+    }
+  ],
+  "metadata_json_bytes": 161602,
+  "isolation": "runtime/qa-audit.sqlite; existing user history untouched"
+}

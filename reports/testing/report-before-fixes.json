@@ -1,0 +1,542 @@
+[
+  {
+    "id": "0d7075a8-fc6e-429a-b67f-4b592cad9ca5",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 5.365192408000016,
+      "Hardness": 238.29121240025776,
+      "Solids": 16262.939245595977,
+      "Chloramines": 7.507931030671623,
+      "Sulfate": 255.5446783507184,
+      "Conductivity": 393.5338791839141,
+      "Organic_carbon": 12.465043478695575,
+      "Trihalomethanes": 27.09570289768941,
+      "Turbidity": 3.1807984567770435
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "1beff9be-1f29-4288-b474-d5b3db2f722c",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 7.503085765108365,
+      "Hardness": 186.71332903022403,
+      "Solids": 32000.178936298867,
+      "Chloramines": 7.641776466935965,
+      "Sulfate": 315.97414706420983,
+      "Conductivity": 473.5316110532757,
+      "Organic_carbon": 12.049130600518822,
+      "Trihalomethanes": 43.28047645668155,
+      "Turbidity": 4.3055136249312
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "df068279-57e5-4ca5-951c-1db9c85cc4cc",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 6.105140135043556,
+      "Hardness": 249.1413910240583,
+      "Solids": 45249.44903301682,
+      "Chloramines": 7.369360303120931,
+      "Sulfate": 338.7713073274613,
+      "Conductivity": 314.96508973191135,
+      "Organic_carbon": 11.251777805654967,
+      "Trihalomethanes": 88.65747731531798,
+      "Turbidity": 3.1030898440692822
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "1f5f937d-bb2b-44bf-9238-000173d40121",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 9.318613915632229,
+      "Hardness": 317.33812405558257,
+      "Solids": 24497.873935207102,
+      "Chloramines": 7.597451675399671,
+      "Sulfate": 357.1672167520999,
+      "Conductivity": 476.5103844769183,
+      "Organic_carbon": 12.032377106951742,
+      "Trihalomethanes": 68.59982978933556,
+      "Turbidity": 4.642719286485374
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "8624b7b9-e9f5-4059-814a-e12b1538caaf",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 7.312109303718794,
+      "Hardness": 199.8129989267848,
+      "Solids": 14540.735081878283,
+      "Chloramines": 8.82741355385482,
+      "Sulfate": 276.118281895499,
+      "Conductivity": 486.9837342968954,
+      "Organic_carbon": 17.27165578226368,
+      "Trihalomethanes": 70.13560786408569,
+      "Turbidity": 5.12387193452145
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "748a7eb2-3b99-4259-a384-e03b9cf5921c",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 9.869231934989052,
+      "Hardness": 223.7726613185774,
+      "Solids": 29549.65882291618,
+      "Chloramines": 7.716922923418477,
+      "Sulfate": 281.11849034749616,
+      "Conductivity": 356.1819158560579,
+      "Organic_carbon": 14.202664062204065,
+      "Trihalomethanes": 84.01358459214303,
+      "Turbidity": 4.736849577023042
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "8888a389-ec26-4e61-9628-cd4f10743496",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 6.427720560503044,
+      "Hardness": 166.85023675863397,
+      "Solids": 12215.40908259904,
+      "Chloramines": 7.696751399214669,
+      "Sulfate": 376.2826172102236,
+      "Conductivity": 352.7453698304618,
+      "Organic_carbon": 20.130482589071505,
+      "Trihalomethanes": 66.73504403038288,
+      "Turbidity": 2.9044533996755977
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "83e42196-7357-45e5-b512-62434fbecf6c",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 6.088022489133808,
+      "Hardness": 162.27835703062416,
+      "Solids": 23567.13287541304,
+      "Chloramines": 7.698581722505345,
+      "Sulfate": 372.8350811188352,
+      "Conductivity": 387.97063524700513,
+      "Organic_carbon": 13.663607288456888,
+      "Trihalomethanes": 75.26606429841081,
+      "Turbidity": 4.173083496432676
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "610a216a-395a-4644-a120-302b7281729a",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 7.885678999417978,
+      "Hardness": 207.82130351942345,
+      "Solids": 12359.63119396728,
+      "Chloramines": 7.3776626020556275,
+      "Sulfate": 340.9789847642716,
+      "Conductivity": 499.3616904289132,
+      "Organic_carbon": 14.045190556416117,
+      "Trihalomethanes": 97.6271596804726,
+      "Turbidity": 5.430349993501885
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "fd6ce27f-37f5-4161-8dc7-fdc635eed7d4",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 6.100245391093,
+      "Hardness": 160.60823048420997,
+      "Solids": 13886.809713477494,
+      "Chloramines": 7.542775331563176,
+      "Sulfate": 366.688794745683,
+      "Conductivity": 449.94828652782576,
+      "Organic_carbon": 18.72285988661741,
+      "Trihalomethanes": 64.39052126130528,
+      "Turbidity": 2.174898198676531
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "e97c786a-43cf-4440-9073-0575dbe832c2",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 8.180755325786324,
+      "Hardness": 178.079638281933,
+      "Solids": 25623.86750312768,
+      "Chloramines": 7.57408205793958,
+      "Sulfate": 391.9182285899952,
+      "Conductivity": 353.5070141898684,
+      "Organic_carbon": 19.74940769665227,
+      "Trihalomethanes": 74.29530522424392,
+      "Turbidity": 3.845422804791746
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "f31575d3-63ca-4453-b6af-4a40a13c35fd",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 6.510972334665771,
+      "Hardness": 188.882918964652,
+      "Solids": 20081.74536239565,
+      "Chloramines": 6.559697825911671,
+      "Sulfate": 368.9857394224101,
+      "Conductivity": 367.9345550600072,
+      "Organic_carbon": 14.807579486368354,
+      "Trihalomethanes": 101.24825299493676,
+      "Turbidity": 3.9625251101758447
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "b6ac2320-4662-4640-b228-d33c7630b513",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 3.4450618643852127,
+      "Hardness": 207.92626018799376,
+      "Solids": 33424.7686784948,
+      "Chloramines": 8.782147480773485,
+      "Sulfate": 384.0070058017212,
+      "Conductivity": 441.7858756739387,
+      "Organic_carbon": 13.80590221127079,
+      "Trihalomethanes": 30.284597198002704,
+      "Turbidity": 4.184396969028851
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "91c5bba9-987a-4a7e-a978-b536cd884f5d",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 9.612898964310972,
+      "Hardness": 94.90897712808312,
+      "Solids": 16598.5775109041,
+      "Chloramines": 9.143046046687209,
+      "Sulfate": 311.2961574212913,
+      "Conductivity": 535.6987005197892,
+      "Organic_carbon": 12.312031748869517,
+      "Trihalomethanes": 67.42695477575255,
+      "Turbidity": 4.016409562458125
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "423c26c1-8a2c-4af4-8299-ed760fdb3a3a",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 8.82809437489545,
+      "Hardness": 196.5628526862427,
+      "Solids": 17699.610609435225,
+      "Chloramines": 8.94038013799541,
+      "Sulfate": 379.91428557925406,
+      "Conductivity": 486.8632669355406,
+      "Organic_carbon": 17.517282837186485,
+      "Trihalomethanes": 61.1828443476096,
+      "Turbidity": 3.793317686196644
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "5ea73843-bc65-4d0e-bbe2-8c49cb173f4a",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 7.539337775748651,
+      "Hardness": 227.31612786069545,
+      "Solids": 12610.936307246897,
+      "Chloramines": 9.507584644945537,
+      "Sulfate": 345.1392345034016,
+      "Conductivity": 343.2427106223277,
+      "Organic_carbon": 12.769069815894852,
+      "Trihalomethanes": 82.82628226262912,
+      "Turbidity": 5.114128667825761
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "63dcc180-95b5-4f32-beab-bb3694e2ad0f",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 6.476139840300842,
+      "Hardness": 215.7217685786681,
+      "Solids": 21165.59064873942,
+      "Chloramines": 7.642952268827367,
+      "Sulfate": 348.4749425060669,
+      "Conductivity": 315.0781345609935,
+      "Organic_carbon": 13.543180211889933,
+      "Trihalomethanes": 46.16900715156537,
+      "Turbidity": 4.041580246514462
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "4a97e58d-1aee-4fe0-8d66-95f5b30ef386",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 6.549124998345768,
+      "Hardness": 194.27685675261148,
+      "Solids": 7412.798058876675,
+      "Chloramines": 5.836980435814227,
+      "Sulfate": 354.8211938420816,
+      "Conductivity": 361.03723822946847,
+      "Organic_carbon": 11.672190501119816,
+      "Trihalomethanes": 57.31697667532342,
+      "Turbidity": 4.42105884351
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "665e7ba3-3f74-4049-99ff-6dcf6c7a7056",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 7.205559174588729,
+      "Hardness": 120.32761534360888,
+      "Solids": 24627.86756046893,
+      "Chloramines": 6.202469332114029,
+      "Sulfate": 289.7686965533282,
+      "Conductivity": 418.4332899200773,
+      "Organic_carbon": 13.643147085869316,
+      "Trihalomethanes": 63.73373237019648,
+      "Turbidity": 3.710053125679874
+    },
+    "matches": false,
+    "pages": 2
+  },
+  {
+    "id": "9699d82b-1643-47a2-84a4-58a000947fe0",
+    "values": {
+      "ph": false,
+      "Hardness": false,
+      "Solids": false,
+      "Chloramines": false,
+      "Sulfate": false,
+      "Conductivity": false,
+      "Organic_carbon": false,
+      "Trihalomethanes": false,
+      "Turbidity": false
+    },
+    "measurements": {
+      "ph": 7.255798597493364,
+      "Hardness": 200.1637946160672,
+      "Solids": 32595.1202435222,
+      "Chloramines": 7.5724354712978945,
+      "Sulfate": 324.5515135073473,
+      "Conductivity": 489.272160165231,
+      "Organic_carbon": 12.305634411994504,
+      "Trihalomethanes": 45.68742145475983,
+      "Turbidity": 3.968177082539273
+    },
+    "matches": false,
+    "pages": 2
+  }
+]

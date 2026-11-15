@@ -1,0 +1,215 @@
+[
+  {
+    "file": "potable_labeled_25.csv",
+    "status": 200,
+    "submitted_rows": 25,
+    "accepted": 25,
+    "rejected": 0,
+    "seconds": 0.2692176999989897,
+    "potable": 12,
+    "nonpotable": 13,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "nonpotable_labeled_25.csv",
+    "status": 200,
+    "submitted_rows": 25,
+    "accepted": 25,
+    "rejected": 0,
+    "seconds": 0.18997910001780838,
+    "potable": 6,
+    "nonpotable": 19,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "balanced_labeled_100.csv",
+    "status": 200,
+    "submitted_rows": 100,
+    "accepted": 100,
+    "rejected": 0,
+    "seconds": 0.267091799993068,
+    "potable": 37,
+    "nonpotable": 63,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "diverse_valid_100.csv",
+    "status": 200,
+    "submitted_rows": 100,
+    "accepted": 100,
+    "rejected": 0,
+    "seconds": 0.3581922000157647,
+    "potable": 65,
+    "nonpotable": 35,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "edge_cases_30.csv",
+    "status": 200,
+    "submitted_rows": 30,
+    "accepted": 30,
+    "rejected": 0,
+    "seconds": 0.21980129997245967,
+    "potable": 7,
+    "nonpotable": 23,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "out_of_distribution_20.csv",
+    "status": 200,
+    "submitted_rows": 20,
+    "accepted": 20,
+    "rejected": 0,
+    "seconds": 0.2581390999839641,
+    "potable": 6,
+    "nonpotable": 14,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "invalid_missing_columns.csv",
+    "status": 422,
+    "submitted_rows": 1,
+    "accepted": 0,
+    "rejected": 1,
+    "seconds": 0.01545449998229742,
+    "potable": null,
+    "nonpotable": null,
+    "validation": {
+      "message": "CSV must contain the nine exact feature headers; optional Potability is ignored."
+    },
+    "export_verified": false,
+    "passed": true
+  },
+  {
+    "file": "invalid_non_numeric.csv",
+    "status": 200,
+    "submitted_rows": 1,
+    "accepted": 0,
+    "rejected": 1,
+    "seconds": 0.040211700019426644,
+    "potable": 0,
+    "nonpotable": 0,
+    "validation": [
+      {
+        "row": 2,
+        "message": "ph: Input should be a valid number, unable to parse string as a number"
+      }
+    ],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "invalid_empty_cells.csv",
+    "status": 200,
+    "submitted_rows": 1,
+    "accepted": 0,
+    "rejected": 1,
+    "seconds": 0.03792029997566715,
+    "potable": 0,
+    "nonpotable": 0,
+    "validation": [
+      {
+        "row": 2,
+        "message": "Sulfate: Input should be a valid number, unable to parse string as a number"
+      }
+    ],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "invalid_extra_columns.csv",
+    "status": 422,
+    "submitted_rows": 1,
+    "accepted": 0,
+    "rejected": 1,
+    "seconds": 0.037532499991357327,
+    "potable": null,
+    "nonpotable": null,
+    "validation": {
+      "message": "CSV must contain the nine exact feature headers; optional Potability is ignored."
+    },
+    "export_verified": false,
+    "passed": true
+  },
+  {
+    "file": "invalid_large_file.csv",
+    "status": 413,
+    "submitted_rows": 1001,
+    "accepted": 0,
+    "rejected": 1001,
+    "seconds": 0.06729819998145103,
+    "potable": null,
+    "nonpotable": null,
+    "validation": {
+      "message": "Maximum 1,000 CSV rows per batch."
+    },
+    "export_verified": false,
+    "passed": true
+  },
+  {
+    "file": "invalid_empty_file.csv",
+    "status": 422,
+    "submitted_rows": 0,
+    "accepted": 0,
+    "rejected": 0,
+    "seconds": 0.01617009995970875,
+    "potable": null,
+    "nonpotable": null,
+    "validation": {
+      "message": "CSV headers are missing or duplicated."
+    },
+    "export_verified": false,
+    "passed": true
+  },
+  {
+    "file": "invalid_duplicate_rows.csv",
+    "status": 200,
+    "submitted_rows": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "seconds": 0.23848969995742664,
+    "potable": 0,
+    "nonpotable": 3,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "single_sample.csv",
+    "status": 200,
+    "submitted_rows": 1,
+    "accepted": 1,
+    "rejected": 0,
+    "seconds": 0.21302840003045276,
+    "potable": 0,
+    "nonpotable": 1,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  },
+  {
+    "file": "maximum_supported_batch.csv",
+    "status": 200,
+    "submitted_rows": 1000,
+    "accepted": 1000,
+    "rejected": 0,
+    "seconds": 1.4148986999643967,
+    "potable": 650,
+    "nonpotable": 350,
+    "validation": [],
+    "export_verified": true,
+    "passed": true
+  }
+]

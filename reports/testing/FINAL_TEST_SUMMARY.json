@@ -1,0 +1,50 @@
+{
+  "verdict": "PASS WITH LIMITATIONS",
+  "backend_tests": {
+    "passed": 36,
+    "total": 36
+  },
+  "component_tests": {
+    "passed": 4,
+    "total": 4
+  },
+  "browser_tests": {
+    "passed": 12,
+    "total": 12
+  },
+  "automated_tests_total": 52,
+  "automated_tests_passed": 52,
+  "audit_checks": {
+    "passed": 2305,
+    "total": 2305,
+    "failures": []
+  },
+  "labeled_samples": {
+    "potable": 50,
+    "nonpotable": 50,
+    "partition": "complete held-out original rows"
+  },
+  "full_holdout": {
+    "potable": 256,
+    "nonpotable": 400,
+    "total": 656
+  },
+  "diverse_unlabeled_samples": 220,
+  "csv_fixtures": 15,
+  "api_parity": {
+    "samples": 100,
+    "models": 5,
+    "comparisons": 500,
+    "mismatches": 0
+  },
+  "browser_parity": {
+    "desktop_samples": 50,
+    "mobile_samples": 3,
+    "model_comparisons": 265,
+    "mismatches": 0
+  },
+  "reports_verified": 20,
+  "models_retrained": false,
+  "production_threshold": 0.5,
+  "history_isolation": "runtime/qa-audit.sqlite and runtime/qa-browser.sqlite; user history preserved"
+}
